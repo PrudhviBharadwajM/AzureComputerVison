@@ -14,12 +14,12 @@ Before using/consuming the APIs, ensure you have the following:
 
 ### Accessing the APIs:
 
-All the APIs will be accessible at `157.245.9.150:3000`.
+All the APIs will be accessible at `localhost:3000`.
 
 ### Endpoints
 
 1. Image Statistics
-   - **Endpoint**: `157.245.9.150:3000/api/v1/image-statistics`
+   - **Endpoint**: `localhost:3000/api/v1/image-statistics`
    - **Method**: `POST`
    - **Request Body**: You should send the image URL in the request body as `raw` and select the type as `JSON`. Below is a sample request body:
      ```json
@@ -53,7 +53,7 @@ All the APIs will be accessible at `157.245.9.150:3000`.
       ![Image Statistics Demo](https://github.com/prudhvi801157436/ITIS-6177-Assignment-Final/blob/main/media/1.gif)
 
 2. Image Description
-   - **Endpoint**: `157.245.9.150:3000/api/v1/image-description`
+   - **Endpoint**: `localhost:3000/api/v1/image-description`
    - **Method**: `POST`
    - **Request Body**: You should send the image URL in the request body as `raw` and select the type as `JSON`. Below is a sample request body:
      ```json
@@ -86,7 +86,7 @@ All the APIs will be accessible at `157.245.9.150:3000`.
       ![Image Statistics Demo](https://github.com/prudhvi801157436/ITIS-6177-Assignment-Final/blob/main/media/2.gif)
 
 3. Object Recognition
-   - **Endpoint**: `157.245.9.150:3000/api/v1/recognize-objects`
+   - **Endpoint**: `localhost:3000/api/v1/recognize-objects`
    - **Method**: `POST`
    - **Request Body**: You should send the image URL in the request body as `raw` and select the type as `JSON`. Below is a sample request body:
      ```json
@@ -172,7 +172,7 @@ All the APIs will be accessible at `157.245.9.150:3000`.
       ![Image Statistics Demo](https://github.com/prudhvi801157436/ITIS-6177-Assignment-Final/blob/main/media/3.gif)
 
 4. Brand Recognization
-   - **Endpoint**: `157.245.9.150:3000/api/v1/recognize-brand`
+   - **Endpoint**: `localhost:3000/api/v1/recognize-brand`
    - **Method**: `POST`
    - **Request Body**: You should send the image URL in the request body as `raw` and select the type as `JSON`. Below is a sample request body:
      ```json
